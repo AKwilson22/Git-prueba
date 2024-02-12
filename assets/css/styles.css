@@ -1,0 +1,82 @@
+
+ /* Edit Bootstrap 
+--bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.7);
+--bs-emphasis-color-rgb: 251, 255, 0; */
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-bar-text-config {
+    color:rgba(240, 248, 255, 0.89);
+    font-weight:300 !important;
+    margin-left: 1rem;
+}
+/* Inicio Header */
+header{
+    background: url('../img/bg-hero.png') center / cover no-repeat;
+    display: flex;
+    width: 100%;
+    height: 18rem;  
+}
+.header-text-shadow{
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.973) ;
+}
+/* Inicio Sect-Ubi */
+.sect-ubi{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.sect-ubi div img{
+    width: 50%;
+    margin: 4rem 0 2rem 0;
+}
+.sect-ubi div p{
+    padding-bottom: 2rem;
+}
+/* Inicio Sect-BigData */
+.sect-bigdata{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    height: auto;
+    background-color: rgb(161, 46, 4);
+}
+.fs-7{
+    font-size: .75rem;
+}
+@media (max-width:991px){
+    .sect-bigdata{
+        text-align: center;
+    }
+}
+.speaker_jpg img{
+    width: 90%;
+    padding-top: .2rem;
+    padding-bottom: 1rem;
+}
+/* Inicio Sect-Event */
+.event-img{
+    width: 85%;
+}
+.sect-event div h3{
+    padding: 3rem 0 2rem;
+}
+.sect-event div div div h5{
+    padding: 1rem 0 2.5rem;
+}
+
+
+ a {
+    color: inherit;
+}
+
+
+
+
+
+
